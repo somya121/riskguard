@@ -1,0 +1,15 @@
+scenarios:
+  baseline:
+    unemployment_rate: 0
+    gdp_growth: 0
+    interest_rate: 0
+
+  adverse:
+    unemployment_rate: 2.0
+    gdp_growth: -2
+    interest_rate: 1
+
+  severe:
+    unemployment_rate: 4
+    gdp_growth: -4
+    interest_rate: 3
